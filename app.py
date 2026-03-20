@@ -9,11 +9,11 @@ model = joblib.load("models/dropout_model.pkl")
 
 st.set_page_config(page_title="Student Dropout Risk System", layout="wide")
 
-st.title("🎓 Student Dropout Early Warning System")
+st.title("🎓 Student Dropout Early Warning System By Muhhamad Taha Sattar")
 st.write("Upload a student CSV to predict dropout risk and visualize risk metrics.")
 
 # Upload CSV
-uploaded_file = st.file_uploader("Upload Student CSV", type=["csv"])
+uploaded_file = st.file_uploader("Upload Student CSV here", type=["csv"])
 
 if uploaded_file is not None:
 
