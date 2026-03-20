@@ -9,7 +9,7 @@ model = joblib.load("models/dropout_model.pkl")
 
 st.set_page_config(page_title="Student Dropout Risk System", layout="wide")
 
-st.title("🎓 Student Dropout Early Warning System By Muhhamad Taha Sattar")
+st.title("🎓 Student Dropout Early Warning System By Muhammad Taha Sattar")
 st.write("Upload a student CSV to predict dropout risk and visualize risk metrics.")
 
 # Upload CSV
